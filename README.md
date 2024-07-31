@@ -36,7 +36,9 @@ After that scroll all the way to the bottom, add 2 new lines and add this:
 //Lantern Event
 
 $Event(3665345, Restart, function() {
+
 SetSpEffect(10000, 3245);
+
 });
 
 Save the file and it should work now with the mod you used.
