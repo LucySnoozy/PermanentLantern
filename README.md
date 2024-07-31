@@ -23,12 +23,12 @@ Compatibility:
 
 If the mod you are playing with doesn't come with an event folder, you can just use this with it.
 
-Otherwise download Dark Script 3 and open the common.emevd.dcx of the mod you are using and add the following:
+- Otherwise download Dark Script 3 and open the common.emevd.dcx of the mod you are using and add the following:
 
-Under $Event(0, Default, function() { there is gonna be a bunch of InitializeEvent lines, go to the last one, add a new line and enter this:
+- Under $Event(0, Default, function() { there is gonna be a bunch of InitializeEvent lines, go to the last one, add a new line and enter this:
 
 ﻿﻿//Lantern Event
-InitializeEvent(0, 3665345, 0);
+  InitializeEvent(0, 3665345, 0);
 
 After that scroll all the way to the bottom, add 2 new lines and add this:
 
