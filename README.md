@@ -28,17 +28,13 @@ If the mod you are playing with doesn't come with an event folder, you can just 
 - Under $Event(0, Default, function() { there is gonna be a bunch of InitializeEvent lines, go to the last one, add a new line and enter this:
 
 ﻿﻿//Lantern Event
-  
 InitializeEvent(0, 3665345, 0);
 
 After that scroll all the way to the bottom, add 2 new lines and add this:
 
 //Lantern Event
-
 $Event(3665345, Restart, function() {
-
 SetSpEffect(10000, 3245);
-
 });
 
 Save the file and it should work now with the mod you used.
